@@ -1,4 +1,5 @@
 h1. Voxel
+
 h2. What is this?
 
 It's a very simple demo that use canvas and ImageData to draw a landscape using the voxel spacing technique. An image is read with the getImageData method and used as a heightmap. The landscape is then rendered column after column using the voxel spacing method. The image is then copied to the canvas with a scale factor.
