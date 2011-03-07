@@ -1,0 +1,19 @@
+<html>
+<head>
+  <style>
+    html, body {
+        text-align: center;
+        font-family: georgia,times,serif;
+        font-size:0.9em;
+        margin: 10;
+        border: 0;
+    }
+  </style>
+  <script src="voxel.js" type="text/javascript"></script>
+  <title>Javascript Voxel demo (using canvas and ImageData)</title>
+</head>
+<body onload="voxel.start('map.jpg', 'texture.jpg')"  onkeydown="voxel.eventHandler(event)" onkeyup="voxel.keyTrap(event)" onkeypress="voxel.keyTrap(event)" onmousemove="voxel.mouseHandler(event)" onmousedown="voxel.mouseHandler(event)" onmouseup="voxel.mouseHandler(event)">
+  <canvas id="canvas" width="640px" height="400px"></canvas>
+  <p><span id="fps"></span></p>
+</body>
+</html>

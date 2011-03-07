@@ -1,0 +1,16 @@
+h1. Voxel
+h2. What is this?
+
+It's a very simple demo that use canvas and ImageData to draw a landscape using the voxel spacing technique. An image is read with the getImageData method and used as a heightmap. The landscape is then rendered column after column using the voxel spacing method. The image is then copied to the canvas with a scale factor.
+
+Your comments are welcomed on the corresponding entry of my blog
+
+h2. Where does it work?
+
+In every browser supporting canvas and ImageData. Firefox, Safari or Chrome will do just fine. This is the second release to this demo, it's twice as fast as before in Firefox, not much improved in Chrome and way slower in Safari which means they all runs more or less at the same speed now (~10fps on my laptop).
+
+I will try to figure out exactly why is Safari slower now, for some news about my progress follow http://www.twitter.com/gameQuery
+
+h2. License
+
+The code and the image are under MIT license. If you do anything with the code I'll be happy to ear about it
